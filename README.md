@@ -20,11 +20,9 @@ matlikelib
 ## Working MATLAB like functions
 
 - *linspace*: 1D uniform vector distribution generator
-
+- *rad2deg*: convert from radiants to degrees
 
 ## To implement
-
-- *rad2deg*: convert from radiants to degrees
 - *deg2rad*: convert from degrees to rad
 - *zeros*: creates a ND vector filled of 1's of given it's size
 - *transpose*: transport a given ND vector

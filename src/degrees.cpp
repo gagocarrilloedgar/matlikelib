@@ -13,7 +13,7 @@ void test_rad2deg()
 
     double result = rad2deg(a);
 
-    assert(result == a_result);
+    assert(result - a_result < epsilon);
 }
 
 
@@ -33,8 +33,6 @@ void test_deg2rad()
 
     double a_2 = 90.0;
     double a2_result = pi/2;
-
     double result2 = deg2rad(a_2);
-
-    assert(result2 == a2_result);
+    assert(result2-a2_result < epsilon);
 }

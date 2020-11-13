@@ -21,14 +21,12 @@ matlikelib
 
 - *linspace*: 1D uniform vector distribution generator
 - *rad2deg*: convert from radiants to degrees
+- *deg2rad*: convert from degrees to rad
+
 
 ## To implement
-- *deg2rad*: convert from degrees to rad
-- *zeros*: creates a ND vector filled of 1's of given it's size
 - *transpose*: transport a given ND vector
-- *inverse*: create the inverse of a matrix
-- *ones*: creates a ND vector filled of 1's of given it's size       
-
+- *inverse*: create the inverse of a matrix    
 
 ---
 

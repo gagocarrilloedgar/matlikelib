@@ -3,10 +3,8 @@
 #ifndef RAD2DEG_H // include guard
 #define RAD2DEG_H
 
-#include <iostream>
 #include <assert.h> 
 #include "constants.h"
-using namespace std;
 
 double rad2deg(double num);
 void test_rad2deg();
